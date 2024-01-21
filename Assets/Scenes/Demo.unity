@@ -957,7 +957,7 @@ GameObject:
   - component: {fileID: 1186767382}
   m_Layer: 0
   m_Name: Audio Manager
-  m_TagString: Untagged
+  m_TagString: Audio
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1894,17 +1894,17 @@ PrefabInstance:
     - target: {fileID: 7947154076802947445, guid: 87168c45797e8894ba57cf069cf70d1f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -36.81
+      value: -36.797
       objectReference: {fileID: 0}
     - target: {fileID: 7947154076802947445, guid: 87168c45797e8894ba57cf069cf70d1f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.8851
+      value: 6.22
       objectReference: {fileID: 0}
     - target: {fileID: 7947154076802947445, guid: 87168c45797e8894ba57cf069cf70d1f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -43.503
+      value: -43.76
       objectReference: {fileID: 0}
     - target: {fileID: 7947154076802947445, guid: 87168c45797e8894ba57cf069cf70d1f,
         type: 3}
@@ -2000,7 +2000,7 @@ PrefabInstance:
     - target: {fileID: 1821030810408715282, guid: 50ed01f8ab7e6e14392ad6203709e94c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.025
+      value: 6.176
       objectReference: {fileID: 0}
     - target: {fileID: 1821030810408715282, guid: 50ed01f8ab7e6e14392ad6203709e94c,
         type: 3}
