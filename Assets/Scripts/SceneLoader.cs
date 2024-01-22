@@ -16,7 +16,7 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("Demo");
         Time.timeScale = 1;
-        audioManager.StopSFX(audioManager.piston);
+        audioManager.StopSFX(audioManager.SFXSource);
     }
 
     public void BackToMenu()

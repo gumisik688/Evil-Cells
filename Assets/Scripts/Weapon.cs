@@ -17,7 +17,6 @@ public class Weapon : MonoBehaviour
     [SerializeField] float timeBetweenShots = 0.5f;
     [SerializeField] TextMeshProUGUI currentAmmoText;
 
-    public PauseMenu pauseMenu;
     bool canShoot = true;
 
     private void OnEnable()
@@ -34,10 +33,9 @@ public class Weapon : MonoBehaviour
             StartCoroutine(Shoot());
         }
 
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(PauseMenu.GameIsPaused == true)
         {
             canShoot = false;
-            pauseMenu.Pause();
         }
     }
 
