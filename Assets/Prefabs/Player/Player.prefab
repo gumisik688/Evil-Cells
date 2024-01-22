@@ -389,12 +389,11 @@ MonoBehaviour:
   muzzleFlash: {fileID: 3801446825854209365}
   hitEffect: {fileID: 5024009746357069194, guid: ec3f674830402cc45bce805cf6493db7,
     type: 3}
-  shotSFX: {fileID: 2839434659880621599}
   ammoSlot: {fileID: 1247791257413700026}
+  shotSFX: {fileID: 2839434659880621599}
   ammoType: 0
   timeBetweenShots: 0.8
   currentAmmoText: {fileID: 0}
-  pauseMenu: {fileID: 0}
 --- !u!82 &2839434659880621599
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5408,6 +5407,7 @@ GameObject:
   - component: {fileID: 4845984846020489932}
   - component: {fileID: 7814865036711039635}
   - component: {fileID: 6260089716640980238}
+  - component: {fileID: 1657762767996279503}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -5544,7 +5544,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fpsCamera: {fileID: 4934342790140262742}
-  zoomOutFOV: 60
+  zoomOutFOV: 40
   zoomInFOV: 20
 --- !u!114 &1247791257413700026
 MonoBehaviour:
@@ -5576,7 +5576,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controller: {fileID: 2490156525996197627}
-  speed: 5
+  speed: 4
   gravity: -9.81
   jump: 1
   groundCheck: {fileID: 2163535994127674751}
@@ -5627,6 +5627,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   impactCanvas: {fileID: 0}
   impactTime: 0.3
+--- !u!114 &1657762767996279503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5638916576417758661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9ceebaecedf6f2458c697d15d30d03c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 0}
 --- !u!1 &7751841775046532422
 GameObject:
   m_ObjectHideFlags: 0
@@ -10660,12 +10673,11 @@ MonoBehaviour:
   muzzleFlash: {fileID: 3614249443508621660}
   hitEffect: {fileID: 5024009746357069194, guid: ec3f674830402cc45bce805cf6493db7,
     type: 3}
-  shotSFX: {fileID: 3434465794082170471}
   ammoSlot: {fileID: 1247791257413700026}
+  shotSFX: {fileID: 3434465794082170471}
   ammoType: 1
   timeBetweenShots: 1
   currentAmmoText: {fileID: 0}
-  pauseMenu: {fileID: 0}
 --- !u!82 &3434465794082170471
 AudioSource:
   m_ObjectHideFlags: 0
